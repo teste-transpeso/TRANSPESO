@@ -421,7 +421,7 @@ text-align: center;
     .equipamentos{
 
         position: relative;
-    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(../img/equip.jpg);
+    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(./img/equip.jpg);
     background-position: 0 center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -448,7 +448,7 @@ text-align: center;
     .equipamentos{
 
         position: relative;
-    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(../img/equip.jpg);
+    background-image: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)), url(./img/equip.jpg);
     background-position: 0 center;
     background-size:cover;
     background-repeat: no-repeat;
