@@ -50,7 +50,7 @@ max-width: 1180px;
 }
 .se{
 display: block;
-background: url(../img//agrvai.jpg);
+background: url(./img//agrvai.jpg);
 background-size:  100% auto;
 background-repeat: no-repeat;
 background-attachment: local;
@@ -153,7 +153,7 @@ max-width: auto;
         height: 100%;
     }
     .servicos h2{
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(../img/munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(./img/munksfile-min.png);
         position: relative;
         
         background-position: -200px auto;
@@ -195,7 +195,7 @@ max-width: auto;
         height: 100%;
     }
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)),url(../img/grrandedms-min\ \(5\).png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 104, 0.521)),url(./img/grrandedms-min\ \(5\).png);
         position: relative;
         
         background-position: 0 center;
@@ -472,7 +472,7 @@ text-align: center;
         height: 100%;
     }
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(../img/munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178),rgba(49, 50, 105, 0.521)),url(./img/munksfile-min.png);
         position: relative;
         
         background-position: center center;
