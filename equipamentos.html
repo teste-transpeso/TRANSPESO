@@ -23,7 +23,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="../img/logo 2.png" width="150px" height="90px">
+            <img src="./img/logo 2.png" width="150px" height="90px">
         </div>
 
         <div class="linha">
@@ -33,14 +33,14 @@
         <nav id="menu">
             <ul>
                 <li><a href="mailto:t.transpeso@gmail.com?Subject=vim%20pelo%20site"
-                        target="_blank">t.transpeso@gmail.com</a></li>
-                <li><a href="./index.html">ínicio</a></li>
-                <li><a href="./servicos.html">serviços</a></li>
-                <li><a href="./equipamentos.html">equipamentos</a></li>
-                <li><a href="https://www.instagram.com/transpesobsb/?hl=pt-br" target="_blank">instagram</a></li>
-                <li><a href="#titu-contato">entre em contato</a></li>
+                        target="_blank" id="email" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">t.transpeso@gmail.com</a></li>
+                <li><a href="./index.html" id="inicio" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">ínicio</a></li>
+                <li><a href="./servicos.html" id="servicos" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">serviços</a></li>
+                <li><a href="./equipamentos.html" id="equipamentos" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">equipamentos</a></li>
+                <li><a href="https://www.instagram.com/transpesobsb/?hl=pt-br" target="_blank"id="instagram" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">instagram</a></li>
+                <li><a href="#titu-contato" id="contato" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">entre em contato</a></li>
                 <li><a href="https://www.google.com.br/maps/place/Transpeso/@-15.8758634,-48.0051089,20z/data=!4m5!3m4!1s0x0:0x13bc9aeaedf8ccad!8m2!3d-15.8758935!4d-48.00486"
-                        target="_blank">localização</a></li>
+                        target="_blank" id="localização" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">localização</a></li>
 
             </ul>
 
@@ -53,8 +53,70 @@
     <div class="contaainer">
         <h2>Equipamentos</h2>
     </div>
-    <div class="fundo">
-        <h1>teste</h1>
+    <div class="equipamentos_itens">
+        <div class="itens_equipamentos"> 
+
+            <div>
+                <img src="./img/005.png" alt="" width="300px">
+                <h2 style="margin-top:40px;">IM-20</h2  >
+                    <p>MODELO: Argos AGI 20.5
+                    <br> ALCANCE HORIZONTAL: 18,8 Mt
+                    <br>  ALCANCE VERTICAL: 21,8 Mt
+                    <br>  CAPACIDADE MÁXIMA: 4500 KG
+                    <br> GIRO: 360 Graus
+                    <br> ANO EQUIPAMENTO: 2012</p>                       
+            </div>
+            <div>
+                <img src="./img/006.png" alt="" width="350px">
+                <h2 style="margin-top:0px;" >IM-47</h2>
+                    <p>MODELO: IM 47 73
+                        <br> ALCANCE HORIZONTAL: 24,3 Mt
+                        <br>  ALCANCE VERTICAL: 29,2 Mt
+                        <br>  CAPACIDADE MÁXIMA: 12000 KG
+                        <br> GIRO: 360 Graus
+                        <br> ANO EQUIPAMENTO: 2019</p>
+            </div>
+            <div>
+                <img  src="./img/012.png" alt="" width="250px" style="margin-top: 30px; margin-left: 20px;" >
+                <h2 style="margin-top:40px;">IM-47</h2>
+                <p>MODELO: IM 47 73
+                    <br> ALCANCE HORIZONTAL: 24,3 Mt
+                    <br>  ALCANCE VERTICAL: 29,2 Mt
+                    <br>  CAPACIDADE MÁXIMA: 12.000 KG
+                    <br> GIRO: 360 Graus
+                    <br> ANO EQUIPAMENTO: 2021</p>
+            </div>
+            <div>
+                <img  src="./img/guindastephoto3.png" alt="" width="250px"  >
+                <h2 style="margin-top:10px;">BR750</h2>
+                <p>MODELO: BR 750
+                    <br>  ALCANCE VERTICAL: 62,0 Mt
+                    <br>  CAPACIDADE MÁXIMA: 75T
+                    <br> ANO EQUIPAMENTO: 2013</p>
+            </div>
+            <div>
+                <img  src="./img/004.png" alt="" width="300px" style="margin-top: 50px"  >
+                <h2 style="margin-top:35px;">IM-55</h2>
+                <p>MODELO: IM-55 43
+                    <br> ALCANCE HORIZONTAL: 19,3 Mt
+                    <br>  ALCANCE VERTICAL: 21,2 Mt
+                    <br>  CAPACIDADE MÁXIMA: 14.000 KG
+                    <br> GIRO: 360 Graus
+                    <br> ANO EQUIPAMENTO: 2011</p>
+            </div>
+
+            <div>
+                <img  src="./img/Sem Título-3.png" alt="" width="300px" style="margin-top: 50px"  >
+                <h2 style="margin-top:5px;">IM-30</h2>
+                <p >MODELO: 30.700
+                    <br>ALCANCE HORIZONTAL: 18,3 Mt
+                    <br>ALCANCE VERTICAL: 21,8 Mt
+                    <br>CAPACIDADE MÁXIMA: 7000 KGF
+                    <br>GIRO: 368 Graus
+                    <br>ANO EQUIPAMENTO: 2019
+                    </p>
+            </div>
+        </div>
     </div>
 
     
@@ -65,30 +127,30 @@
 
     <div class="clientes">
         <div >
-            <img id="villela" src="../img/villela.png" width="400px" height="auto" class="logosclientes" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img id="villela" src="./img/villela.png" width="400px" height="auto" class="logosclientes" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
         <div >
-            <img id="luner" src="../img/logo-luner.png" alt="" class="logosclientes" width="400px" height="auto"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img id="luner" src="./img/logo-luner.png" alt="" class="logosclientes" width="400px" height="auto"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
         <div >
-            <img  id="smartly" src="../img/smartly.png" alt="" width="420px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img  id="smartly" src="./img/smartly.png" alt="" width="420px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
         <div >
-            <img  id="hidroderve"src="../img/hidroserve.png" alt="" width="400px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" >
+            <img  id="hidroderve"src="./img/hidroserve.png" alt="" width="400px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" >
         </div>
         <div >
-            <img id="emplavi" src="../img/emplavi.png" alt="" width="400px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img id="emplavi" src="./img/emplavi.png" alt="" width="400px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
         <div>
-            <img id="concretiza" src="../img/concretiza.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img id="concretiza" src="./img/concretiza.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
         <div >
-            <img id="rennove" src="../img/rennove.png" alt=" "  width="350px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
+            <img id="rennove" src="./img/rennove.png" alt=" "  width="350px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">
         </div>
     </div>
     <div class="ligue">
         <div class="caminhao">
-            <img src="../img/Sem Título-3.png" alt="">
+            <img src="./img/Sem Título-3.png" alt="">
         </div>
         <div class="ligue-agr">
             <a href="tel:6198170-0161">LIGUE: (61) 98170-0161</a>
@@ -101,7 +163,7 @@
         <div class="-final-esquerda">
 
             <div class="logo-final">
-                <img src="../img/logo branca.png" width="70" height="40">
+                <img src="./img/logo branca.png" width="70" height="40">
             </div>
 
             <div class="copyrith">
